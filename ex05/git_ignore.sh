@@ -1,1 +1,2 @@
-git status -s --ignored | grep '!!' | cut -c 4-
+#!/bin/sh
+git status --ignored -s = """
