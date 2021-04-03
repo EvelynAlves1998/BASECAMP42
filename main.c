@@ -1,6 +1,6 @@
 #include "rush00.c"
 int     main()
 {
-    rush(10, 3);
+    rush(1, 10);
     return(0);
 }
