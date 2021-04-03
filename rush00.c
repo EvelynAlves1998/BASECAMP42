@@ -13,7 +13,6 @@ void	rush(int x, int y)
             j = 0;
             while(j < x)
             {
-                // para seber se vai mostrar na tela largura ou comprimeto
                 if((i == 0) || (i == (y-1)))
                 {
                     if((j == 0) || (j == (x-1)))
@@ -34,85 +33,7 @@ void	rush(int x, int y)
 
             i++;
         }
-
-
-    
-        // int largura;
-        // largura = x;
-        // int i;
-        // i = 0;
-        // while (i < largura)
-        // {
-        //     if(i == 0 || i == (largura - 1))
-        //     {
-        //         ft_putchar('o');
-        //     }
-        //     else 
-        //     {
-        //         ft_putchar('-');
-        //     }
-
-        //     i++;
-
-        //     /*
-        //     **  Lógica Altura        
-        //     */
-        // }
-
-       
-        // int altura = y;
-        // int altura_praticada = altura - 2;
-        // if((altura_praticada >= 0) && (largura > 0))
-        // {
-        //     ft_putchar('\n');
-            
-        //     int qtd_espacos_em_branco = largura - 2;
-        //     i = 0;
-        //     while(i < altura_praticada || i == 0)
-        //     {
-        //         ft_putchar('|');
-
-        //         if(qtd_espacos_em_branco >= 0){
-        //             int j;
-        //             j = 0;
-        //             while(j < qtd_espacos_em_branco)
-        //             {
-        //                 ft_putchar(' ');
-        //                 j++;
-        //             }
-        //             ft_putchar('|');
-        //         }
-
-        //         ft_putchar('\n');
-
-        //         i++;
-        //     }
-
-        //     /*
-        //     **  Lógica Largura, novamente        
-        //     */
-        //     i = 0;
-        //     while(i < largura)
-        //     {
-        //         if(i == 0 || i == (largura - 1))
-        //         {
-        //             ft_putchar('o');
-        //         }
-        //         else 
-        //         {
-        //             ft_putchar('-');
-        //         }
-
-        //         i++;
-        //     }
-            
-        // }
         
-        // ft_putchar('\n');
-}
-
-
-
         /*
         **                          REGRA: 
         **   1 - Um "o" conta como 1 de altura e 1 de largura.
