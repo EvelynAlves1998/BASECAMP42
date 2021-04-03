@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void rush(int x, int y){
+void 	rush(int x, int y){
     // printf("o----o\n");
     // printf("|    |\n");
     // printf("o----o\n");
@@ -9,6 +9,7 @@ void rush(int x, int y){
 
    int largura = x;
    int i = 0;
+   
    while(i < largura)
    {
        if(i == 0 || i == (largura - 1))
