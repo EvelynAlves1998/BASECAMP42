@@ -55,8 +55,5 @@ void	rush(int x, int y)
         **        mostrar a base do sólido.
         **         
         **
-        **
-        */
-        /*
         **  Lógica Largura 
         */
