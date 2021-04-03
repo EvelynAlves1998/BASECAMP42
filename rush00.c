@@ -33,7 +33,7 @@ void	rush(int x, int y)
 
             i++;
         }
-        
+}
         /*
         **                          REGRA: 
         **   1 - Um "o" conta como 1 de altura e 1 de largura.
