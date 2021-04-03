@@ -1,93 +1,114 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   rush00.c                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/03 14:17:18 by clobato-          #+#    #+#             */
-/*   Updated: 2021/04/03 16:28:11 by clobato-         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_putchar.c"
 
 void	ft_putchar(char a);
 
 void	rush(int x, int y)
 {
-        int largura;
-        largura = x;
         int i;
+
         i = 0;
-        while (i < largura)
+        while (i < y)
         {
-            if(i == 0 || i == (largura - 1))
+            int j;
+            j = 0;
+            while(j < x)
             {
-                ft_putchar('o');
-            }
-            else 
-            {
-                ft_putchar('-');
+                if((i == 0) || (i == (y-1)))
+                {
+                    if((i == 0) || i == (x - 1))
+                        ft_putchar('o');
+                    else 
+                        ft_putchar('-');
+                    j++;
+                }
+                else
+                {
+                    if((i == 0) || i == (x - 1))
+                        ft_putchar('|');
+                    else
+                        ft_putchar(' ');
+
+                }
+               
             }
 
             i++;
-
-            /*
-            **  Lógica Altura        
-            */
         }
+
+
+    
+        // int largura;
+        // largura = x;
+        // int i;
+        // i = 0;
+        // while (i < largura)
+        // {
+        //     if(i == 0 || i == (largura - 1))
+        //     {
+        //         ft_putchar('o');
+        //     }
+        //     else 
+        //     {
+        //         ft_putchar('-');
+        //     }
+
+        //     i++;
+
+        //     /*
+        //     **  Lógica Altura        
+        //     */
+        // }
 
        
-        int altura = y;
-        int altura_praticada = altura - 2;
-        if((altura_praticada >= 0) && (largura > 0))
-        {
-            ft_putchar('\n');
+        // int altura = y;
+        // int altura_praticada = altura - 2;
+        // if((altura_praticada >= 0) && (largura > 0))
+        // {
+        //     ft_putchar('\n');
             
-            int qtd_espacos_em_branco = largura - 2;
-            i = 0;
-            while(i < altura_praticada || i == 0)
-            {
-                ft_putchar('|');
+        //     int qtd_espacos_em_branco = largura - 2;
+        //     i = 0;
+        //     while(i < altura_praticada || i == 0)
+        //     {
+        //         ft_putchar('|');
 
-                if(qtd_espacos_em_branco >= 0){
-                    int j;
-                    j = 0;
-                    while(j < qtd_espacos_em_branco)
-                    {
-                        ft_putchar(' ');
-                        j++;
-                    }
-                    ft_putchar('|');
-                }
+        //         if(qtd_espacos_em_branco >= 0){
+        //             int j;
+        //             j = 0;
+        //             while(j < qtd_espacos_em_branco)
+        //             {
+        //                 ft_putchar(' ');
+        //                 j++;
+        //             }
+        //             ft_putchar('|');
+        //         }
 
-                ft_putchar('\n');
+        //         ft_putchar('\n');
 
-                i++;
-            }
+        //         i++;
+        //     }
 
-            /*
-            **  Lógica Largura, novamente        
-            */
-            i = 0;
-            while(i < largura)
-            {
-                if(i == 0 || i == (largura - 1))
-                {
-                    ft_putchar('o');
-                }
-                else 
-                {
-                    ft_putchar('-');
-                }
+        //     /*
+        //     **  Lógica Largura, novamente        
+        //     */
+        //     i = 0;
+        //     while(i < largura)
+        //     {
+        //         if(i == 0 || i == (largura - 1))
+        //         {
+        //             ft_putchar('o');
+        //         }
+        //         else 
+        //         {
+        //             ft_putchar('-');
+        //         }
 
-                i++;
-            }
+        //         i++;
+        //     }
             
-        }
+        // }
         
-        ft_putchar('\n');
+        // ft_putchar('\n');
 }
 
 
