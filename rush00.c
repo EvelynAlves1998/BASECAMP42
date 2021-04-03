@@ -6,7 +6,7 @@
 /*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 14:17:18 by clobato-          #+#    #+#             */
-/*   Updated: 2021/04/03 16:22:57 by clobato-         ###   ########.fr       */
+/*   Updated: 2021/04/03 16:28:11 by clobato-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,13 @@ void	rush(int x, int y)
             }
 
             i++;
+
+            /*
+            **  Lógica Altura        
+            */
         }
 
-        /*
-        **  Lógica Altura        
-        */
+       
         int altura = y;
         int altura_praticada = altura - 2;
         if((altura_praticada >= 0) && (largura > 0))
