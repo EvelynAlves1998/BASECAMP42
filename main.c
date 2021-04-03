@@ -6,11 +6,9 @@
 /*   By: vida-sil <vida-sil@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 20:21:57 by vida-sil          #+#    #+#             */
-/*   Updated: 2021/04/03 20:50:05 by vida-sil         ###   ########.fr       */
+/*   Updated: 2021/04/03 21:19:15 by vida-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "rush00.c"
 
 void	rush(int x, int y);
 
