@@ -7,7 +7,7 @@ void	rush(int x, int y)
         int i;
 
         i = 0;
-        while (i < y)
+        while ((i < y) && (x > 0))
         {
             int j;
             j = 0;
