@@ -51,8 +51,6 @@ void rush(int x, int y){
             i++;
         }
 
-        // printf("\n");
-
         i = 0;
         while(i < largura)
         {
@@ -71,6 +69,4 @@ void rush(int x, int y){
     }
     
     printf("\n");
-
-    
 }
