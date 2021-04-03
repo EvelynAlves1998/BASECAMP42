@@ -1,6 +1,9 @@
 #include "rush00.c"
-int     main()
+
+void	rush(int x, int y);
+
+int		main(void)
 {
-    rush(1, 1);
-    return(0);
+	rush(1, 5);
+	return (0);
 }

@@ -6,11 +6,11 @@
 /*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 14:17:18 by clobato-          #+#    #+#             */
-/*   Updated: 2021/04/03 15:30:58 by clobato-         ###   ########.fr       */
+/*   Updated: 2021/04/03 15:38:38 by clobato-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_putchar.h"
+#include "ft_putchar.c"
 
 void	rush(int x, int y)
 {
@@ -44,7 +44,7 @@ void	rush(int x, int y)
         int altura = y;
         int altura_praticada = altura - 2;
 
-            int i;
+        int i;
             
         i = 0;
         
@@ -52,11 +52,11 @@ void	rush(int x, int y)
         {
             if(i == 0 || i == (largura - 1))
             {
-                ft_putchar("o");
+                ft_putchar('o');
             }
             else 
             {
-                ft_putchar("-");
+                ft_putchar('-');
             }
 
             i++;
@@ -65,26 +65,26 @@ void	rush(int x, int y)
 
         if((altura_praticada >= 0))
         {
-            ft_putchar("\n");
+            ft_putchar('\n');
             
             int qtd_espacos_em_branco = largura - 2;
             i = 0;
             while(i < altura_praticada || i == 0)
             {
-                ft_putchar("|");
+                ft_putchar('|');
 
                 if(qtd_espacos_em_branco >= 0){
                     int j;
                     j = 0;
                     while(j < qtd_espacos_em_branco)
                     {
-                        ft_putchar(" ");
+                        ft_putchar(' ');
                         j++;
                     }
-                    ft_putchar("|");
+                    ft_putchar('|');
                 }
 
-                ft_putchar("\n");
+                ft_putchar('\n');
 
                 i++;
             }
@@ -94,11 +94,11 @@ void	rush(int x, int y)
             {
                 if(i == 0 || i == (largura - 1))
                 {
-                    ft_putchar("o");
+                    ft_putchar('o');
                 }
                 else 
                 {
-                    ft_putchar("-");
+                    ft_putchar('-');
                 }
 
                 i++;
@@ -106,5 +106,5 @@ void	rush(int x, int y)
             
         }
         
-        ft_putchar("\n");
+        ft_putchar('\n');
 }

@@ -6,10 +6,11 @@
 /*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 15:29:31 by clobato-          #+#    #+#             */
-/*   Updated: 2021/04/03 15:29:45 by clobato-         ###   ########.fr       */
+/*   Updated: 2021/04/03 15:37:09 by clobato-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {
