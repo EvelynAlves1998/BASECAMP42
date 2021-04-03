@@ -13,24 +13,24 @@ void	rush(int x, int y)
             j = 0;
             while(j < x)
             {
+                // para seber se vai mostrar na tela largura ou comprimeto
                 if((i == 0) || (i == (y-1)))
                 {
-                    if((i == 0) || i == (x - 1))
+                    if((j == 0) || (j == (x-1)))
                         ft_putchar('o');
                     else 
                         ft_putchar('-');
-                    j++;
                 }
                 else
                 {
-                    if((i == 0) || i == (x - 1))
+                    if((j == 0) || j == (x - 1))
                         ft_putchar('|');
                     else
                         ft_putchar(' ');
-
                 }
-               
+               j++;
             }
+            ft_putchar('\n');
 
             i++;
         }
