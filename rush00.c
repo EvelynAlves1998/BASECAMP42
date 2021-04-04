@@ -6,7 +6,7 @@
 /*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 20:22:17 by vida-sil          #+#    #+#             */
-/*   Updated: 2021/04/03 22:35:59 by clobato-         ###   ########.fr       */
+/*   Updated: 2021/04/03 23:59:24 by clobato-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,32 +14,32 @@ void	ft_putchar(char a);
 
 void	rush(int x, int y)
 {
-	int i;
-	int j;
+	int height;
+	int width;
 
-	i = 0;
-	while ((i < y) && (x > 0))
+	height = 0;
+	while ((height < y) && (x > 0))
 	{
-		j = 0;
-		while (j < x)
+		width = 0;
+		while (width < x)
 		{
-			if ((i == 0) || (i == (y - 1)))
+			if ((height == 0) || (height == (y - 1)))
 			{
-				if ((j == 0) || (j == (x - 1)))
+				if ((width == 0) || (width == (x - 1)))
 					ft_putchar('o');
 				else
 					ft_putchar('-');
 			}
 			else
 			{
-				if ((j == 0) || j == (x - 1))
+				if ((width == 0) || width == (x - 1))
 					ft_putchar('|');
 				else
 					ft_putchar(' ');
 			}
-			j++;
+			width++;
 		}
 		ft_putchar('\n');
-		i++;
+		height++;
 	}
 }
