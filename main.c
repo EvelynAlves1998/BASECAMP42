@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vida-sil <vida-sil@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 20:21:57 by vida-sil          #+#    #+#             */
-/*   Updated: 2021/04/03 21:19:15 by vida-sil         ###   ########.fr       */
+/*   Updated: 2021/04/04 14:39:00 by clobato-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,6 @@ void	rush(int x, int y);
 
 int		main(void)
 {
-<<<<<<< HEAD
-    rush(7, 5);
-    return(0);
-}
-=======
 	rush(5, 3);
 	return (0);
 }
->>>>>>> explicacoes
