@@ -6,11 +6,11 @@
 /*   By: clobato- <clobato-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 20:22:17 by vida-sil          #+#    #+#             */
-/*   Updated: 2021/04/04 18:33:26 by clobato-         ###   ########.fr       */
+/*   Updated: 2021/04/04 18:56:40 by clobato-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char a);
+void	ft_putchar(char c);
 
 void	rush(int x, int y)
 {
