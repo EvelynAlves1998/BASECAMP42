@@ -7,67 +7,66 @@ void 	rush(int x, int y){
 
    // Lógica da base
 
-   int largura = x;
-   int i = 0;
-   
-   while(i < largura)
-   {
-       if(i == 0 || i == (largura - 1))
-       {
-           printf("o");
-       }
-       else 
-       {
-           printf("-");
-       }
+int largura = x;
+int i = 0;
 
-      i++;
-   }
-
-    int altura = y;
-    int altura_praticada = altura - 2;
-
-    if(altura_praticada >= 0 && largura > 0)
+while(i < largura)
+{
+    if(i == 0 || i == (largura - 1))
     {
-        printf("\n");
-        int qtd_espacos_em_branco = largura - 2;
-        i = 0;
-        while(i < altura_praticada || i == 0)
-        {
+        printf("o");
+    }
+    else 
+    {
+        printf("-");
+    }
+
+    i++;
+}
+
+int altura = y;
+int altura_praticada = altura - 2;
+
+if(altura_praticada >= 0 && largura > 0)
+{
+    printf("\n");
+    int qtd_espacos_em_branco = largura - 2;
+    i = 0;
+    while(i < altura_praticada || i == 0)
+    {
+        printf("|");
+
+        if(qtd_espacos_em_branco >= 0){
+            int j;
+            j = 0;
+            while(j < qtd_espacos_em_branco)
+            {
+                printf(" ");
+                j++;
+            }
             printf("|");
-
-            if(qtd_espacos_em_branco >= 0){
-                int j;
-                j = 0;
-                while(j < qtd_espacos_em_branco)
-                {
-                    printf(" ");
-                    j++;
-                }
-                printf("|");
-            }
-
-            printf("\n");
-
-            i++;
         }
 
-        i = 0;
-        while(i < largura)
+        printf("\n");
+
+        i++;
+    }
+
+    i = 0;
+    while(i < largura)
+    {
+        if(i == 0 || i == (largura - 1))
         {
-            if(i == 0 || i == (largura - 1))
-            {
-                printf("o");
-            }
-            else 
-            {
-                printf("-");
-            }
-
-            i++;
+            printf("o");
         }
-        
+        else 
+        {
+            printf("-");
+        }
+
+        i++;
     }
     
-    printf("\n");
 }
+
+printf("\n");
