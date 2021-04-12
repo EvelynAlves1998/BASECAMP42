@@ -6,23 +6,21 @@
 /*   By: ealves-d <ealves-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/08 16:05:56 by ealves-d          #+#    #+#             */
-/*   Updated: 2021/04/09 20:23:07 by ealves-d         ###   ########.fr       */
+/*   Updated: 2021/04/12 22:28:34 by ealves-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int		i;
-	char	*cstr;
+	char	*p;
 
 	i = 0;
-	cstr = str;
-	while (*cstr != 0)
+	p = str;
+	while (*p != 0)
 	{
-		write(1, cstr, 1);
 		i++;
-		cstr++;
+		p++;
 	}
+	return (i);
 }

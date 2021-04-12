@@ -6,7 +6,7 @@
 /*   By: ealves-d <ealves-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/08 13:36:51 by ealves-d          #+#    #+#             */
-/*   Updated: 2021/04/09 14:47:03 by ealves-d         ###   ########.fr       */
+/*   Updated: 2021/04/12 15:34:27 by ealves-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void	ft_putstr(char *str)
 {
-	char	*cstr;
+	char	*p;
 
-	cstr = str;
-	while (*cstr != 0)
+	p = str;
+	while (*p != 0)
 	{
-		write(1, cstr, 1);
-		cstr++;
+		write(1, p, 1);
+		p++;
 	}
 }
