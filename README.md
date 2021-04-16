@@ -21,4 +21,5 @@ Quem for aprovado nessa última etapa, se torna um Cadete e inicia sua Jornada n
 ![image](https://user-images.githubusercontent.com/49756340/114101854-b7266900-989c-11eb-8f13-a0d99b22efa3.png)
 ![image](https://user-images.githubusercontent.com/49756340/114101884-c3aac180-989c-11eb-974b-dfa93ff030d8.png)
 ![image](https://user-images.githubusercontent.com/49756340/114101953-de7d3600-989c-11eb-9f54-c7d6c97ff777.png)
-![image](https://user-images.githubusercontent.com/49756340/115053630-b6519080-9eb5-11eb-92a8-3d57366791ba.png)
+![image](https://user-images.githubusercontent.com/49756340/115054025-252ee980-9eb6-11eb-89ed-876395004371.png)
+
