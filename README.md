@@ -18,14 +18,10 @@ Quem for aprovado nessa última etapa, se torna um Cadete e inicia sua Jornada n
 - Shell
 - C
 # Achievements 
-![image](https://user-images.githubusercontent.com/49756340/114101854-b7266900-989c-11eb-8f13-a0d99b22efa3.png)
-![image](https://user-images.githubusercontent.com/49756340/114101884-c3aac180-989c-11eb-974b-dfa93ff030d8.png)
-![image](https://user-images.githubusercontent.com/49756340/114101953-de7d3600-989c-11eb-9f54-c7d6c97ff777.png)
-![image](https://user-images.githubusercontent.com/49756340/115054240-6626fe00-9eb6-11eb-9124-0df394b14d3e.png)
-![image](https://user-images.githubusercontent.com/49756340/115054417-91115200-9eb6-11eb-9cd6-d413e5ad03be.png)
-![image](https://user-images.githubusercontent.com/49756340/115054467-9e2e4100-9eb6-11eb-94ac-bbdd2f95748e.png)
-![image](https://user-images.githubusercontent.com/49756340/115054630-d33a9380-9eb6-11eb-836e-61384f5c0d7a.png)
-![image](https://user-images.githubusercontent.com/49756340/115054724-efd6cb80-9eb6-11eb-91f9-168f4e24c0f6.png)
+![image](https://user-images.githubusercontent.com/49756340/116275445-0522e400-a75a-11eb-967b-6fa20ebfd67b.png)
+![image](https://user-images.githubusercontent.com/49756340/116275492-123fd300-a75a-11eb-9e50-256c8f6209a5.png)
+![image](https://user-images.githubusercontent.com/49756340/116275572-24ba0c80-a75a-11eb-9203-8f95e1376025.png)
+
 
 
 
