@@ -6,7 +6,7 @@ O Basecamp é um treinamento imersivo, de 20 dias, que acontece virtualmente atr
 A dedicação é super intensa, não sendo possível conciliar com outras atividades.
 Após esses 20 dias de imersão, recebemos a resposta de aprovação ou não.
 Quem for aprovado nessa última etapa, se torna um Cadete e inicia sua Jornada na 42 São Paulo.
-# Skils
+# Skills
 - Adaptation & creativity
 - Group & interpersonal
 - Unix
